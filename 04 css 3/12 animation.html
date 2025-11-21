@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+
+    <style>
+        .kotak{
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+        }
+
+        .kotak:hover{
+            animation: animasikotak 2s  ease 2;
+            background-color: brown;
+        }
+
+        @keyframes animasikotak{
+            from{
+                width: 200px;
+            }
+            to{
+                width: 500px;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="kotak"></div>
+</body>
+</html>

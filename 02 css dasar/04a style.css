@@ -1,0 +1,6 @@
+body {
+    background-color: aqua;
+    background-image: url(image/images.jpeg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}

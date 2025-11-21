@@ -1,0 +1,29 @@
+.hello:link {
+    color: green;
+}
+.hello:hover {
+    color: rgb(133, 10, 248);
+    font-size: 20px;
+}
+.heloo:active {
+    font-style: italic;
+}
+.hello:visited {
+    color: black;
+}
+
+
+.li:nth-child(odd) a {
+    color: green;
+}
+.li:nth-child(odd) a:hover{
+    color: rgb(255, 0, 0);
+    font-size: 10px;
+}
+
+p:first-of-type {
+    color: blue;
+}
+p:last-of-type {
+    color: blueviolet;
+}

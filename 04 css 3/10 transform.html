@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+
+    <style>
+        .kotak{
+            width: 200px;
+            height: 200px;
+            background-color: brown;
+            margin:50px auto ;
+            border-radius: 50%;
+            transition: 1s;
+            filter: blur(5px);
+        }
+        .kotak:hover{
+            transform:  translate(150px) scale(1.3);
+            filter: blur(0);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="kotak"></div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam expedita itaque aliquid ad quasi saepe,
+        cupiditate, laborum voluptate mollitia quia, recusandae porro odio vel. Nesciunt quaerat exercitationem aliquid
+        reprehenderit eveniet.</p>
+
+</body>
+
+</html>

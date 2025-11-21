@@ -1,0 +1,26 @@
+body {
+background-color: silver;
+}
+h1 {
+    color: aqua;
+}
+h2 {
+    color: aquamarine;
+}
+ul li a {
+    color: brown;
+}
+ol li a {
+    color: blue;
+}
+
+#p1 {
+    color: tomato;
+    font-style: italic;
+}
+
+.p2 {
+    color: greenyellow;
+    font-family: arial;
+    
+}

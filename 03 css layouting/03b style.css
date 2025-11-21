@@ -1,0 +1,16 @@
+div{
+    width: 600px;
+    margin: 30px auto;
+    box-sizing: border-box;
+}
+.tiga{
+    background-color: blue;
+    padding: 10px; 
+    border: 55px solid red;
+}
+.dua {
+
+    background-color: aquamarine;
+    padding: 30px;
+    border: 10px solid orange;
+}
