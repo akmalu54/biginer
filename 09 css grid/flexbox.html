@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>awalan</title>
+    <title>flex box</title>
+    <!-- tampilan sama menggunakan materi flex box -->
     <style>
         body, html {
             margin: 0;
@@ -24,13 +25,37 @@
         }
 
         header {
-            background-color: lightblue;
+            background-color: rgb(12, 247, 12);
             padding: 10px;
+        }
+
+        .content {
+            display: flex;
+        }
+
+        .sidebar {
+            flex: 1;
+        }
+
+        .sidebar aside {
+            background-color: rgb(224, 12, 47);
+            padding: 100px 0;
+        }
+
+        .sidebar nav {
+            background-color: blue;
+            padding: 50px 0;
+        }
+
+        main {
+            background-color: purple;
+            box-sizing: border-box;
+            flex: 1.5;
         }
 
         footer {
             background-color: rgb(108, 6, 232);
-            padding: 10px;
+            padding: 20px 0;
         }
     </style>
 </head>
