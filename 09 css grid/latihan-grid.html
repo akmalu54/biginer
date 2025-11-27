@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>membuat website responsiv menggunakan grid</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">Akmalu Sport</h2>
+                <p class="sub-heding">Peralatan Sport</p>
+            </div>
+            <div class="features fitur-1">
+                <h4 class="price">IDR 250k</h4>
+                <p class="item">Sepatu</p>
+            </div>
+            <div class="features fitur-2">
+                <h4 class="price">IDR 150k</h4>
+                <p class="item">Bola</p>
+            </div>
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+                <h1>Akmalu 54</h1>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Produk</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Galery</a></li>
+        </nav>
+
+        <section class="services">
+            <div class="service">
+                <div class="icon">888</div>
+                <h3>tutorial</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, illo nesciunt velit suscipit ab dolorem.</p>
+            </div>
+            <div class="service">
+                <div class="icon">777</div>
+                <h3>online course</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, illo nesciunt velit suscipit ab dolorem.</p>
+            </div>
+            <div class="service">
+                <div class="icon">666</div>
+                <h3>podcast</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, illo nesciunt velit suscipit ab dolorem.</p>
+            </div>
+            <div class="service">
+                <div class="icon">555</div>
+                <h3>hadiah</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, illo nesciunt velit suscipit ab dolorem.</p>
+            </div>
+        </section>
+
+        <section class="galery">
+            <h2>galery</h2>
+            <img src="img/1.jpg" alt="">
+            <img src="img/2.jpg" alt="">
+            <img src="img/3.jpg" alt="">
+            <img src="img/4.jpg" alt="">
+            <img src="img/5.jpg" alt="">
+            <img src="img/6.jpg" alt="">
+            <img src="img/7.jpg" alt="">
+            <img src="img/9.jpg" alt="">
+            <img src="img/10.jpg" alt="">
+            <img src="img/11.jpg" alt="">
+        </section>
+
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function() {
+            nav.classList.toggle('slide');
+        });
+    </script>
+
+</body>
+
+</html>
